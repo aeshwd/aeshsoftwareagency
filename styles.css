@@ -1,0 +1,290 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Swiper Pagination */
+.swiper-pagination-bullet {
+    background-color: white;
+}
+
+
+
+/* About Section */
+.about {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.about img {
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #2a5298;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.about .list-unstyled li {
+    font-size: 1rem;
+    color: #343a40;
+    display: flex;
+    align-items: center;
+}
+
+.about .list-unstyled .icon {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+    .about {
+        text-align: center;
+    }
+
+    .about img {
+        margin-bottom: 1.5rem;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Enhanced Service Cards */
+.service-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #007bff;
+}
+
+.service-card .card-title {
+    font-size: 1.2rem;
+    color: #2a5298;
+    font-weight: bold;
+}
+
+.service-card .card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* View More Button */
+#view-more-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#view-more-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
+}
+
+
+/* Testimonials Section */
+
+/* Star Rating */
+.star-rating {
+    color: #FFD700; /* Gold color for filled stars */
+    font-size: 1.2rem;
+}
+
+.star {
+    margin-right: 5px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Add responsive design for mobile */
+@media (max-width: 768px) {
+    .star-rating {
+        font-size: 1rem;
+    }
+}
+
+
+/* Contact Section */
+
+/* Contact Section */
+.contact-us {
+    background-color: #f9f9f9;
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contact-us .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-us .form-control {
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.contact-us .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-us .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.contact-us .list-unstyled {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.contact-us .list-unstyled li {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.contact-us .bi {
+    color: #007bff;
+}
+
+.contact-us .list-unstyled li p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.contact-us .list-unstyled li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.contact-us .list-unstyled li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-us .col-lg-6 {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/* Custom styles for the button and modal */
+#quoteButton {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modal-body li {
+    margin: 10px 0;
+}
+
+.modal-body a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.modal-body a:hover {
+    text-decoration: underline;
+}
+
+
+

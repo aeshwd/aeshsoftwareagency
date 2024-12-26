@@ -1,0 +1,375 @@
+/* Company History Section Styling */
+.history {
+    background-color: #f9f9f9; /* Light grey background */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.history h2 {
+    font-size: 2.5rem; /* Larger heading font */
+    font-weight: 600;
+    color: #343a40; /* Dark text for the main heading */
+}
+
+.history p {
+    font-size: 1.1rem; /* Slightly larger font size for the description */
+    color: #6c757d; /* Muted text color */
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.history h4 {
+    font-size: 1.75rem; /* Slightly smaller font for subheading */
+    font-weight: 500;
+    color: #007bff; /* Blue color for subheading */
+    margin-bottom: 30px;
+}
+
+.history .list-unstyled li {
+    font-size: 1.1rem; /* List item font size */
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.history .list-unstyled li i {
+    font-size: 1.5rem; /* Icon size */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #28a745; /* Green color for check icons */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .history h2 {
+        font-size: 2rem;
+    }
+
+    .history p {
+        font-size: 1rem;
+    }
+
+    .history h4 {
+        font-size: 1.5rem;
+    }
+
+    .history .list-unstyled li {
+        font-size: 1rem;
+    }
+}
+
+
+/* Mission and Values Section Styling */
+.values {
+    background-color: #f8f9fa; /* Light background color */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.values h2 {
+    font-size: 2.5rem; /* Larger font size for the main heading */
+    font-weight: 600;
+    color: #343a40; /* Dark color for the heading */
+    text-align: center; /* Centered heading */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+.values p {
+    font-size: 1.2rem; /* Larger text for description */
+    color: #6c757d; /* Muted text color */
+    line-height: 1.8;
+    text-align: center; /* Center text */
+    max-width: 800px;
+    margin: 0 auto; /* Centered paragraph */
+}
+
+.values ul {
+    list-style: none; /* Remove default list styling */
+    padding-left: 0; /* Remove default padding */
+    margin-top: 30px;
+    text-align: center; /* Center align the list */
+}
+
+.values .list-unstyled li {
+    font-size: 1.2rem; /* Slightly larger font size for the list items */
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    color: #495057; /* Slightly muted color for the list items */
+}
+
+.values .list-unstyled li i {
+    font-size: 1.5rem; /* Icon size */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #28a745; /* Green color for the check icons */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .values h2 {
+        font-size: 2rem; /* Smaller font size for headings on smaller screens */
+    }
+
+    .values p {
+        font-size: 1rem; /* Slightly smaller font size for text */
+    }
+
+    .values .list-unstyled li {
+        font-size: 1rem; /* Smaller font size for list items */
+    }
+}
+
+
+
+/* Team Section Styling */
+.team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.team h2 {
+    font-size: 2.5rem; /* Larger font size for the main heading */
+    font-weight: 600;
+    color: #343a40; /* Dark color for the heading */
+    text-align: center; /* Centered heading */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+.team p {
+    font-size: 1.2rem; /* Slightly larger text for the description */
+    color: #6c757d; /* Muted text color */
+    line-height: 1.8;
+    text-align: center; /* Center text */
+    max-width: 800px;
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.team .row {
+    display: flex;
+    justify-content: space-around; /* Distribute team members evenly */
+    gap: 30px; /* Gap between team members */
+}
+
+.team .col-md-4 {
+    text-align: center; /* Center align text */
+    padding: 15px; /* Space between columns */
+}
+
+.team img {
+    width: 200px; /* Set a fixed width for the images */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Maintain image aspect ratio */
+    border-radius: 50%; /* Round the images */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow effect on images */
+    transition: transform 0.3s ease; /* Smooth scale effect on hover */
+}
+
+.team img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.team h5 {
+    font-size: 1.5rem; /* Larger font size for the name */
+    font-weight: 500;
+    color: #343a40; /* Dark text for the name */
+    margin-top: 20px; /* Space above the name */
+}
+
+.team p.text-muted {
+    font-size: 1rem; /* Regular text size for roles */
+    color: #6c757d; /* Muted color for roles */
+    margin-bottom: 20px; /* Space below the role text */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .team h2 {
+        font-size: 2rem; /* Smaller font size for headings on smaller screens */
+    }
+
+    .team p {
+        font-size: 1rem; /* Slightly smaller font size for text */
+    }
+
+    .team .row {
+        flex-direction: column; /* Stack team members vertically */
+        align-items: center; /* Center team members in the column */
+    }
+
+    .team .col-md-4 {
+        margin-bottom: 30px; /* Space between stacked team members */
+    }
+
+    .team img {
+        width: 150px; /* Smaller image size on mobile */
+        height: 150px;
+    }
+}
+
+/* Unique Selling Points Section Styling */
+.usp {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.usp h2 {
+    font-size: 2.5rem; /* Larger heading size */
+    font-weight: 600;
+    color: #343a40; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.usp p {
+    font-size: 1.2rem;
+    color: #6c757d; /* Muted text */
+    line-height: 1.8;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.usp ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid layout for items */
+    gap: 30px; /* Space between list items */
+}
+
+.usp li {
+    font-size: 1.1rem;
+    color: #495057;
+    display: flex;
+    align-items: center; /* Align icon with text */
+    gap: 15px; /* Space between icon and text */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.usp li:hover {
+    transform: translateY(-5px); /* Slightly raise the item on hover */
+    color: #007bff; /* Change color on hover */
+}
+
+.usp li i {
+    font-size: 1.5rem; /* Larger icon size */
+    color: #007bff; /* Blue color for icons */
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+.usp li:hover i {
+    color: #0056b3; /* Darker blue for icons on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .usp h2 {
+        font-size: 2rem; /* Slightly smaller heading on mobile */
+    }
+
+    .usp p {
+        font-size: 1rem; /* Smaller text on mobile */
+    }
+
+    .usp ul {
+        grid-template-columns: 1fr; /* Stack list items on mobile */
+        gap: 20px; /* Reduce gap between items */
+    }
+}
+
+
+/* Achievements Section Styling */
+.achievements {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f4f6f9; /* Light background color */
+    text-align: center; /* Center text */
+}
+
+.achievements h2 {
+    font-size: 2.5rem; /* Larger heading size */
+    font-weight: 700;
+    color: #343a40; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.achievements p {
+    font-size: 1.2rem;
+    color: #6c757d; /* Muted text */
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.achievements h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #495057;
+    margin-top: 30px;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid layout */
+    gap: 20px;
+}
+
+.achievements li {
+    font-size: 1.1rem;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.achievements li:hover {
+    background-color: #e0e0e0; /* Light grey on hover */
+    transform: translateY(-5px); /* Slightly raise on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.achievements li i {
+    font-size: 1.6rem; /* Larger icon size */
+    color: #ffc107; /* Golden icon color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.achievements li:hover i {
+    color: #ff9800; /* Darker golden color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .achievements h2 {
+        font-size: 2rem; /* Smaller heading size on mobile */
+    }
+
+    .achievements p {
+        font-size: 1rem; /* Smaller text on mobile */
+    }
+
+    .achievements ul {
+        grid-template-columns: 1fr; /* Stack items on mobile */
+        gap: 15px; /* Reduced gap between items */
+    }
+}
+
+
+
+
